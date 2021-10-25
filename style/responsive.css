@@ -1,0 +1,29 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav{
+        margin-bottom: 10px;
+    }
+
+    main .container{
+        height: 400px;
+    }
+
+    .buttons{
+        position: absolute;
+        top: 530px;
+    }
+
+    .button{
+        margin-top: 5px;
+        width: 160px;
+        height: 50px;
+    }
+
+    .movies-carousel{
+        margin: 50px;
+    }
+}
